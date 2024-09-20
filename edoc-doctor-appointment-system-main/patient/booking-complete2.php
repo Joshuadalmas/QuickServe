@@ -28,8 +28,8 @@ if (isset($_GET['paymentId']) && isset($_GET['PayerID'])) {
     $payer_id = $_GET['PayerID'];
 
     // Your PayPal API credentials
-    $client_id = 'Ac0ExpFnWr_8M8vSApvr4lk_uytxFUgd4jtaOf6NPLruw7BuIK8doqhuof_uOpRwNDUsxOFXkVN3ZDTm';
-    $client_secret = 'ENgOgrujOLyPZHNfk92DsRhhGMaQ-ODo55uRaJK6TDCdPmvYT_sbcFRccHvTzVgMUmcKi-sAubMkZyHl';
+    $client_id = 'XXXX_XXXX_XXXX';
+    $client_secret = 'XXXX_XXXX';
 
     // Set up PayPal API endpoint
     $api_endpoint = 'https://api.sandbox.paypal.com'; // Use sandbox endpoint for testing
